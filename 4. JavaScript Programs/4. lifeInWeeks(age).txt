@@ -1,0 +1,11 @@
+function lifeInWeeks(age) {
+    var totalAgeInMonts = 90 * 12
+    var totalAgeInWeeks = 90 * 52
+    var totalAgeInDays = 90 * 365
+
+    var yourAgeInMonts = age * 12
+    var yourAgeInWeeks = age * 52
+    var yourAgeInDays = age * 365
+
+    console.log ("You have " + (totalAgeInDays - yourAgeInDays) + " days, " + (totalAgeInWeeks - yourAgeInWeeks) + " weeks, and " + (totalAgeInMonts - yourAgeInMonts) + " months left.");
+}

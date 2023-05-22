@@ -1,0 +1,7 @@
+function whosPaying(names) {
+
+    var ran = Math.random();
+    ran = Math.floor(ran * names.length);
+
+    return names[ran] + " is going to buy lunch today!";
+}
