@@ -1,0 +1,6 @@
+1.
+var tweet = prompt("Type your tweet:");
+alert ("You have written " + tweet.length + " ch, and you have " + (280 - tweet.length) + " ch left.");
+
+2.
+alert(prompt("Type your tweet: ").slice(0,140));

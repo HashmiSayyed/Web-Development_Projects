@@ -1,0 +1,10 @@
+function getMilk(cash) {
+    console.log("goToStore");
+
+    var numOfBottle = Math.floor(cash/1.5);
+    console.log("buy " + numOfBottle + " bottles of milk");
+
+    console.log("comeBackToHouse");
+}
+
+getMilk(5);

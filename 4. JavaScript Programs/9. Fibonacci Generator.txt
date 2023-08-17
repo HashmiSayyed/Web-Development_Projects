@@ -1,0 +1,19 @@
+function fibonacciGenerator (n) {
+
+    var main = [];
+
+    if (n === 1){
+        main = [0];
+    } else if (n === 2){
+        main = [0, 1];
+    } else{
+        main = [0, 1,];
+        while(main.length < n) {
+        main.push(main[main.length - 2] + main[main.length - 1]);
+        }
+    }
+
+    console.log(main);
+}
+
+fibonacciGenerator(n);
